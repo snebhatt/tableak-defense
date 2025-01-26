@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 import torch
 import numpy as np
-from .inversion_losses import _weighted_CS_SE_loss, _gradient_norm_weighted_CS_SE_loss, _squared_error_loss, \
+from attacks.inversion_losses import _weighted_CS_SE_loss, _gradient_norm_weighted_CS_SE_loss, _squared_error_loss, \
     _cosine_similarity_loss
 from torch.nn.functional import conv1d
 
